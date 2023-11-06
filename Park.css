@@ -1,0 +1,249 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.link {
+    color: blue;
+}
+
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.top {
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.logo {
+    width: 3.5%;
+    height: 37px;
+    float: left;
+}
+.search {
+    height: 20px;
+}
+
+.menu {
+    word-spacing: 80px;
+    text-align: center;
+    width: 198%;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.header-container {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.trails-title {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.trails-container {
+    position: relative;
+}
+
+.trails-text {
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.trail-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    margin-top: 100px;
+}
+  
+.trail-gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.trail-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.trail-desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(142, 142, 173);
+    font-size: 20px;
+  }
+
+.trail-images {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -850px;
+}
+
+.lake-title {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.lake-container {
+    position: relative;
+}
+
+.lake-text {
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.lake-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}
+  
+.lake-gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.lake-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.lake-desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(142, 142, 173);
+    font-size: 20px;
+  }
+
+.lake-images {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -1100px;
+}
+
+.camping-title {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.camping-container {
+    position: relative;
+}
+
+.camping-text {
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 100px;
+    font-size: 40px;
+    float: left;
+}
+
+.camping-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    margin-top: 500px;
+}
+  
+.camping-gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.camping-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.camping-desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(142, 142, 173);
+    font-size: 20px;
+  }
+
+.camping-images {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -1000px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: black;
+    max-height: 70% !important;
+    margin-top: -4px;
+}
+
+.footrow {
+    color: white !important;
+    justify-content: center;
+    text-align: left;
+    margin-right: 50%;
+    column-gap: 50%;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+.column {
+    width: 90%;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+
+.map {
+    width:10%;
+    float: left;
+    margin-right: 77px;
+}
+
+.bear {
+    width: 10.6%;
+    position: absolute;
+    margin-left: 2304px;
+}
